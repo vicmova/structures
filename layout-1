@@ -1,0 +1,107 @@
+//---------------------------------------------------------------------------------------------- HTML
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Layout | VMV</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+
+        <div id = "contenedor">
+            <div id = "header">HEADER</div>
+            <div id = "nav">NAV</div>
+
+                <div id="contenido">
+                
+                    <div id="section">SECTION
+                        <article id="article">ARTICLE</article>
+                        <article id="article">ARTICLE</article>
+                        <article id="article">ARTICLE</article>
+                        <article id="article">ARTICLE</article>
+                    </div>
+
+                    <div id = "aside">ASIDE</div>
+            
+                </div>
+
+            <div id = "footer">FOOTER</div>
+
+        </div>
+        
+
+
+    </body>
+</html>
+
+//---------------------------------------------------------------------------------------------- CSS
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jura';
+    text-align: center;
+    color: white;
+}
+
+#contenedor {
+    width: 1200px;
+    height: 1000px;
+    margin:0.5em auto;
+    padding: 0.5em;
+    /*border: 1px solid black;*/
+}
+
+#header {
+    height: 15%;
+    background: #A4A4A4;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#nav {
+    height: 10%;
+    background: #424242;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#contenido {
+    height: 53%;
+    margin: 1em;
+}
+
+#footer {
+    height: 20%;
+    background: #424242;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#section {
+    height: 95%;
+    width: 71%;
+    background: #A4A4A4;
+    border-radius: 1em;
+    float:left;
+    margin: 0.5em;
+}
+
+#aside {
+    height: 95%;
+    width: 25%;
+    background: #A4A4A4;
+    border-radius: 1em;
+    float:right;
+    margin: 0.5em;
+}
+
+#article {
+    width: 96%;
+    height: 20%;
+    background: #424242;
+    margin: 1em;
+    border-radius: 1em;
+}
