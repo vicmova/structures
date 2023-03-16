@@ -1,2 +1,2 @@
-# structures
+# Layouts
 CSS | Bootstrap
